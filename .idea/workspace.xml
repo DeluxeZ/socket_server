@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2a6e642c-e842-4789-8bfa-2abf6e1c0ef5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZRKLgAzstD9FXWWT3YP0d9uAfQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SocketClient" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Application.Server">
+    <configuration name="Conn$Con" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Conn$Con" />
+      <module name="SocketServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Conn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Conn" />
+      <module name="SocketServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Refresh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Refresh" />
+      <module name="SocketServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Server" />
+      <module name="SocketServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="function" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.function" />
+      <module name="SocketServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.Refresh" />
+        <item itemvalue="Application.Conn" />
+        <item itemvalue="Application.function" />
+        <item itemvalue="Application.Conn$Con" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a6e642c-e842-4789-8bfa-2abf6e1c0ef5" name="Default Changelist" comment="" />
+      <created>1584796411394</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584796411394</updated>
+      <workItem from="1584796414747" duration="21544000" />
+      <workItem from="1585490242299" duration="4902000" />
+      <workItem from="1585564469560" duration="30719000" />
+      <workItem from="1585669950512" duration="8850000" />
+      <workItem from="1585751938535" duration="603000" />
+      <workItem from="1585814209653" duration="5976000" />
+      <workItem from="1585913715159" duration="13036000" />
+      <workItem from="1586312450953" duration="317000" />
+      <workItem from="1586353328676" duration="5418000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="526" y="170" key="#com.intellij.ide.util.MemberChooser" timestamp="1585967583339">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="526" y="170" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1585967583339" />
+    <state x="505" y="345" width="431" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584796459704">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="505" y="345" width="431" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.920@0.0.1440.920" timestamp="1584796459704" />
+    <state x="501" y="215" key="FileChooserDialogImpl" timestamp="1585914380159">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="501" y="215" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1585914380159" />
+    <state width="1397" height="280" key="GridCell.Tab.0.bottom" timestamp="1586436405981">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="280" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1586436405981" />
+    <state width="1397" height="280" key="GridCell.Tab.0.center" timestamp="1586436405981">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="280" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1586436405981" />
+    <state width="1397" height="280" key="GridCell.Tab.0.left" timestamp="1586436405980">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="280" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1586436405980" />
+    <state width="1397" height="280" key="GridCell.Tab.0.right" timestamp="1586436405981">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="280" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1586436405981" />
+    <state width="1397" height="300" key="GridCell.Tab.1.bottom" timestamp="1585493656068">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="300" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1585493656068" />
+    <state width="1397" height="300" key="GridCell.Tab.1.center" timestamp="1585493656068">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="300" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1585493656068" />
+    <state width="1397" height="300" key="GridCell.Tab.1.left" timestamp="1585493656068">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="300" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1585493656068" />
+    <state width="1397" height="300" key="GridCell.Tab.1.right" timestamp="1585493656068">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="300" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1585493656068" />
+    <state x="201" y="35" key="SettingsEditor" timestamp="1584796540092">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="201" y="35" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1584796540092" />
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1585932682169">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1585932682169" />
+  </component>
+</project>
