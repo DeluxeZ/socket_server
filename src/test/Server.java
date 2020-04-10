@@ -134,7 +134,7 @@ public class Server {
                         bw.newLine();
                         bw.flush();
                     } else {
-                        getSource(receiveIP, srcname);
+                        serverThreads.get(index).getSource(receiveIP, srcname);
                     }
                 } else if (status.equals("400")) {
 //                    refresh(usrname);
@@ -170,19 +170,34 @@ public class Server {
                             bw.flush();
                             break;
                         } else if (isSign.equals("1")) {
-                            String sql = "INSERT into client(usrname, passwrd) values(?,?)";
-                            PreparedStatement ps = conn.prepareStatement(sql);
-                            ps.setString(1, usrname);
-                            ps.setString(2, password);
-                            int rs = ps.executeUpdate();
-                            if (rs == 0) {
-                                bw.write("602");
-                                bw.newLine();
-                                bw.flush();
-                            } else {
-                                bw.write("601");
-                                bw.newLine();
-                                bw.flush();
+                            int sign = 1;
+                            String sql = "SELECT passwrd from client where usrname = '"+usrname+"'";
+                            PreparedStatement ps1 = conn.prepareStatement(sql);
+                            ResultSet rs1 = ps1.executeQuery();
+                            while (rs1.next()) {
+                                String pass = rs1.getString("passwrd");
+                                if (pass.equals(password)){
+                                    bw.write("602");
+                                    bw.newLine();
+                                    bw.flush();
+                                    sign = 0;
+                                }
+                            }
+                            if (sign==1) {
+                                sql = "INSERT into client(usrname, passwrd) values(?,?)";
+                                PreparedStatement ps = conn.prepareStatement(sql);
+                                ps.setString(1, usrname);
+                                ps.setString(2, password);
+                                int rs = ps.executeUpdate();
+                                if (rs == 0) {
+                                    bw.write("602");
+                                    bw.newLine();
+                                    bw.flush();
+                                } else {
+                                    bw.write("601");
+                                    bw.newLine();
+                                    bw.flush();
+                                }
                             }
                             break;
                         } else {
