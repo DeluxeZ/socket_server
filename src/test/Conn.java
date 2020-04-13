@@ -9,12 +9,12 @@ import java.sql.Statement;
  * 数据库连接
  */
 public class Conn {
+	//配置数据库驱动
     public static String driver="com.mysql.cj.jdbc.Driver";
-    //这里我的数据库是cxxt
     public static String url="jdbc:mysql://localhost:3306/socket?&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true";
-    public static String user="root";
-    public static String password="Zhao@9295";
-    public static Connection con;
+    public static String user="root";//用户名
+    public static String password="Zhao@9295";//密码
+    public static Connection con;//定义链接
 
     public static void main(String[] args) {
 
