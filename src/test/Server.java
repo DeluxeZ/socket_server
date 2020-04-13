@@ -26,9 +26,6 @@ public class Server {
                 ServerThread serverThread = new ServerThread(so);
                 serverThread.start();
                 serverThreads.add(serverThread);
-//                new Thread(new ServerThread(so)).start();
-//                ServerThread st = new ServerThread(so);
-//                st.start();
             }
         } catch (IOException e) {
             // TODO Auto-generated catch block
@@ -64,7 +61,8 @@ public class Server {
             try {
                 handleSocket();
             } catch (Exception e) {
-                e.printStackTrace();
+                System.out.println("客户端断开连接");
+                serverThreads.remove(serverThreads.indexOf(this));
             }
         }
 
